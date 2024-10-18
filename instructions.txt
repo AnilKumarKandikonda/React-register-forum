@@ -1,0 +1,13 @@
+1. once the files are extracted, run 
+	npm install
+2. once the packages are installed, run
+	npm start 
+3. this will view the page in the web browser, 
+4. functionalities implemented -> 
+	a. form validation
+	b. api request call
+	c. to write the phone number add 1 to the beginning so that it can consider has a country code.
+ 	d. api request success and failure messages 
+	e. caught unnecessary api calls	
+	f. made the page responsive for any view 
+	g. used react with hooks, with react material UI and scss for styling and responsiveness.

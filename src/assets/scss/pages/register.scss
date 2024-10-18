@@ -1,0 +1,102 @@
+.page-header {
+    background-color: $primary-header-color;
+    height: 56px;
+    &-logo{
+        width: 294px;
+        height: 32px;
+        margin-left: 166px;
+        margin-top: 12px;
+    }
+}
+
+.register-user-block {
+    background-color: #fff;
+}
+
+.login-page {
+
+    &-container {
+        max-width: 502px;
+        margin: auto;
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    &-formContainer {
+        padding: 16px;
+    }
+
+    &-labels {
+        margin-bottom: 10px;
+
+        label {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.15px;
+        }
+    }
+
+    &-textfield {
+        margin-bottom: 16px;
+    }
+}
+
+.button {
+    &-group {
+        text-align: center;
+    }
+
+    &-cancel {
+        margin-right: 10px !important;
+    }
+
+    &-submit {
+        background-color: $secondary-color !important;
+    }
+}
+
+.cardcontainer {
+    position: relative;
+}
+
+.alertMessage {
+    position: fixed;
+    top: 140px;
+    left: 65%;
+}
+.alertMessageMobile {
+    display: none !important;
+}
+
+@media (max-width: 843px) {
+    .alertMessageMobile {
+        display: block !important;
+    }
+    .alertMessage{
+        display: none !important;
+    }
+}
+
+@media (max-width: 430px) {
+    .selectinputformcontrol{
+        width: 100px !important;
+        min-width: 0 !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .page-header-logo{
+        width: 148px;
+        height:16px;
+        margin-left: 17px;
+    }
+}
+
+.MuiAlert-icon{
+    float: left !important;
+}
